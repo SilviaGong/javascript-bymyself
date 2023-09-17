@@ -1,7 +1,7 @@
-// count usage
+/* // count usage
 let num = 1;
 // num = num + 1;
-// 采取赋值运算符
+// take assignment operator
 // num += 3;
 console.log(num);
 
@@ -23,3 +23,12 @@ console.log(num);
 
 let i = 1
 console.log(i++ + ++i + i)
+ */
+
+const school = [
+  ["science", "computer", "art"],
+  ["Jones", "Willoughby", "Rhodes"]
+];
+school[0].push("dance")
+school[1].unshift('Holmes')
+console.log(school);
